@@ -1,0 +1,6 @@
+create table register(
+id int NOT NULL Auto_Increment,
+username varchar(50) Not Null, email varchar(50) Not Null,
+password varchar(20) not null,
+primary key(id),
+unique key(email) );

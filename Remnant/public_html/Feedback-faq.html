@@ -1,0 +1,110 @@
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="CSS/Feedback-faq.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Feedback</h2>
+      <label>
+        <span>Name</span>
+        <input type="email" name="email">
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" name="password">
+      </label>
+            <label>
+        <span>Phone Number</span>
+        <input type="email" name="password">
+      </label>
+	   
+	  <label>
+	  <span>Feedback description:</span>
+
+        <select name="option" id="potion" class="option1">
+       
+	   <option value="support">support</option>
+          <option value="ideas">ideas</option>
+           <option value="problems">problems</option>
+           <option value="feedback">feedback</option>
+		   <option value="compliments">compliments</option>
+		   <option value="Question">Question</option>
+        </select>
+		</label>
+            <label>
+        <span>Comment </span>
+        <input type="email" name="password">
+      </label>
+	  
+      <button class="submit" type="button" onclick="relol234()">Submit</button>
+      <p class="forgot-pass">------------</p>
+	 
+
+      <div class="social-media">
+        <ul>
+          <li><img src="images/facebook.png"></li>
+          <li><img src="images/twitter.png"></li>
+          <li><img src="images/linkedin.png"></li>
+          <li><img src="images/instagram.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>Got Some Questions?</h2>
+          <p>Answers to commonly asked questions below!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>Not satisfied!</h2>
+          <p>Write to us about your query!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">F A Q S</span>
+          <span class="m-in">Feedback</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Frequently Ask Questions!</h2>
+        <label>
+            <span>Q.What is Remnant?</span><br>
+          <span>A.Our ultimate goal is to recover and pretreat recyclable materials so that they can be 
+recycled and reused as cost effectively as possible.</span>
+          
+        </label>
+        <label>
+            <span>Q.Does This Website Work 24/7?</span><br>
+          <span>A.Currently we only have specific working hours but we are trying to stretch it to 24/7.</span>
+        </label>
+        <label>
+            <span>Q.Can I Donate?</span><br>
+          <span>A.Currently We Don't Have A Donation system Yet But We Will be Bringing It Soon.</span>
+        </label>
+        
+
+      </div>
+    </div>
+  </div>
+    <script>
+    function relol234(){
+        alert("Thank You For Your Valuable Time");
+       window.location.replace("Homepage.html");
+        
+        
+    }    
+    document.querySelector('.img-btn').addEventListener('click', function()
+	{
+		document.querySelector('.cont').classList.toggle('s-signup');
+	}
+);
+
+    </script>
+    
+</body>
+</html>
